@@ -6,7 +6,7 @@
 
 - [WhatsApp](//wa.me/85297099153?text=你好，我喺github見到你地個樓盤，想請問咩時候方便約睇？)
 
-- 電話 | Phone：+852-97099153
+- [電話 | Phone](https://islandplace.github.io/phone.html)
 
 # 樓盤簡介 | Real Estate Descriptions
 
