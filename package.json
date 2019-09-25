@@ -1,0 +1,26 @@
+{
+  "name": "islandplace.github.io",
+  "version": "0.0.0",
+  "description": "Website for Real Estate in Hong Kong",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/islandplace/islandplace.github.io.git"
+  },
+  "keywords": [
+    "Real Estate",
+    "Hong Kong",
+    "North Point",
+    "Island Place",
+    "Website"
+  ],
+  "author": "Edwin Ting",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/islandplace/islandplace.github.io/issues"
+  },
+  "homepage": "https://github.com/islandplace/islandplace.github.io#readme"
+}
