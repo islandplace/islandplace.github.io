@@ -2486,15 +2486,18 @@ Copyright &copy;<script>document.write((new Date).getFullYear())</script>All rig
 </footer>
  
  
+<script src="js/adsBlockDetector.js"></script>
 <script src="js/jquery-3.2.1.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/owl.carousel.min.js"></script>
 <script src="js/jquery.magnific-popup.min.js"></script>
 <script src="js/main.js"></script>
  
+<script>window.hasAdsBlock = !document.getElementById('hedxJmTHQNtD')</script>
  
  
-<script async src="https://www.googletagmanager.com/gtag/js?id=AW-977164098"></script>
+ 
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-148930011-1"></script>
 <script>
     window.dataLayer = window.dataLayer || []
     function gtag(){dataLayer.push(arguments)}
@@ -2513,6 +2516,7 @@ Copyright &copy;<script>document.write((new Date).getFullYear())</script>All rig
     var phoneButtons = [...document.getElementsByClassName("phone-link")]
     facebookButtons.forEach((el, i) => el.addEventListener("click",
       function gtagReportConversionVisitFacebook(ev) {
+        if(hasAdsBlock) return true
         ev.preventDefault()
         gtag("event", "conversion", {
           "send_to": "AW-977164098/lzg_CO-CuqwBEMKu-dED",
@@ -2522,6 +2526,7 @@ Copyright &copy;<script>document.write((new Date).getFullYear())</script>All rig
     ))
     whatsAppButtons.forEach((el, i) => el.addEventListener("click",
       function gtagReportConversionSendWhatsApp(ev) {
+        if(hasAdsBlock) return true
         ev.preventDefault()
         gtag("event", "conversion", {
             "send_to": "AW-977164098/a3w7CI6uyKwBEMKu-dED",
@@ -2531,6 +2536,7 @@ Copyright &copy;<script>document.write((new Date).getFullYear())</script>All rig
     ))
     phoneButtons.forEach((el, i) => el.addEventListener("click",
       function gtagReportConversionMakesPhoneCall(ev) {
+        if(hasAdsBlock) return true
         ev.preventDefault()
         gtag('event', 'conversion', {
             'send_to': 'AW-977164098/_IJICNfSzawBEMKu-dED',
@@ -2562,6 +2568,6 @@ Copyright &copy;<script>document.write((new Date).getFullYear())</script>All rig
 <div class="fb-customerchat" attribution="setup_tool
 " page_id="108389923855840" logged_in_greeting="你好！請問有咩可以幫到你？😊" logged_out_greeting="你好！請問有咩可以幫到你？😊">
 </div>
-<script type="text/javascript" src="/runtime.9d910ee4a59f90bbfd09.js"></script><script type="text/javascript" src="/0.6487b7bda17930b8b303.js"></script></body>
+<script type="text/javascript" src="/runtime.045b5d151a9dd793114d.js"></script><script type="text/javascript" src="/0.6487b7bda17930b8b303.js"></script></body>
 
 </html>
